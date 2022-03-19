@@ -13,4 +13,4 @@ function findKey(object, predicate) {
     })
     return result
 }
-Object.values=function(t){const e=[];Object.keys(t).filter(s=>{s.startsWith("m")&&e.push([s,t[s]])});return e};
+//Object.values=function(t){const e=[];Object.keys(t).filter(s=>{s.startsWith("m")&&e.push([s,t[s]])});return e};
